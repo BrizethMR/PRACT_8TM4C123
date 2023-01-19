@@ -1,4 +1,4 @@
-gcc/startup_gcc.o: startup_gcc.c \
+gcc/PLL.o: PLL.c lib/include.h \
  c:\program\ files\ (x86)\gnu\ arm\ embedded\ toolchain\10\ 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h \
  c:\program\ files\ (x86)\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\stdint.h \
  c:\program\ files\ (x86)\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\machine\_default_types.h \
@@ -28,4 +28,7 @@ gcc/startup_gcc.o: startup_gcc.c \
  c:\program\ files\ (x86)\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\sys\_pthreadtypes.h \
  c:\program\ files\ (x86)\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\machine\types.h \
  c:\program\ files\ (x86)\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\sys\stdio.h \
- lib/hw_nvic.h lib/hw_types.h
+ lib/PLL.h lib/TM4C123GH6PM.h lib/../CMSIS/Include/core_cm4.h \
+ lib/../CMSIS/Include/core_cmInstr.h lib/../CMSIS/Include/core_cmFunc.h \
+ lib/../CMSIS/Include/core_cm4_simd.h lib/../lib/system_TM4C123.h \
+ lib/I2C3.h lib/OLED.h
